@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MewHelp 一键启动" type="CompoundRunConfigurationType" factoryName="Compound">
+    <toRun name="MewHelp MCP 物流 8101" type="PythonConfigurationType" />
+    <toRun name="MewHelp MCP 售后 8102" type="PythonConfigurationType" />
+    <toRun name="MewHelp 应用 8000" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

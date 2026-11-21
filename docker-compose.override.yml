@@ -1,0 +1,7 @@
+# 本机适配：Windows 上 3306 已被本机 MySQL80 服务占用，MewHelp 的 MySQL 容器
+# 改映射到 3307，避免停掉宿主机上其它项目依赖的 MySQL 服务。
+# 对应的连接串见 .env 里的 DATABASE_URL（端口 3307）。
+services:
+  mysql:
+    ports: !override
+      - "3307:3306"
